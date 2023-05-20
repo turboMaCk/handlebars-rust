@@ -24,7 +24,7 @@ path = "src/cli.rs"
 [dependencies]
 log = { version = "0.4.0" }
 thiserror = "1"
-pest = "2.1.0"
+pest = { git = "https://github.com/pest-parser/pest.git", tag = "v2.5.5" }
 pest_derive = "2.1.0"
 serde = "1.0.0"
 serde_json = "1.0.39"
